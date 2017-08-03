@@ -8,4 +8,4 @@ delete:delete.cpp
 modify:modify.cpp
 	g++ modify.cpp -o modify -lhiredis -lmysqlpp
 clean:
-	rm read write delete modify
+	rm -f read write delete modify
